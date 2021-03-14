@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+ backstage:
+  build:
+   context: .
+  volumes:
+    - ./:/app
